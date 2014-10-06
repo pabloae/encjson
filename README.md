@@ -1,4 +1,4 @@
-encjson
+encJSON
 =======
 
-EncJSON - A Javascript library to perform an encryption of a JSON object conserving its structure.
+encJSON - A Javascript library to perform an encryption of a JSON object conserving its structure.
