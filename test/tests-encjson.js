@@ -1,3 +1,7 @@
+/*
+	(c) 2014 by Pablo Alonso Esparza. All rights reserved.
+
+	*/
 	QUnit.module("Unit Testing framework check");
 	test("QUnit check", function () {
 		ok(1 == "1", "Test passed! (But we didn't actually test anything of EncJson)");
