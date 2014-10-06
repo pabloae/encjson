@@ -1,8 +1,5 @@
-/*
-	The CryptoJS and CryptoJS are modifications of the ones in CryptoJS v3.1.2
-	code.google.com/p/crypto-js
+/*
 	(c) 2014 by Pablo Alonso Esparza. All rights reserved.
-	code.google.com/p/crypto-js/wiki/License
 	*/
 var encjson=(function () {
 	var module = {};
