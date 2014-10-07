@@ -33,6 +33,8 @@ encjson.setpassword('wAlkert3xasrang3r', 2);
 encjson.setpassword('wAlkert3xasrang3r');
 //Option 2: Without a key derivation function
 encjson.setrawpassword('wAlkert3xasrang3r');
+//Option 3: Set a random password
+encjson.setrandompassword();
 
 //ENCRYPTION OF THE JSON
 var enc= encjson.encryptjson(testData0);
@@ -56,7 +58,7 @@ Version
 Tech
 -----------
 
-Dillinger uses a number of open source projects to work properly:
+encJSON uses a number of open source projects to work properly:
 
 * [CryptoJS] - For the Rabbit and PBKDF2 algorithms implementation.
 * [QUnit] - To test this library.
